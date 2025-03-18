@@ -1,16 +1,16 @@
 def progressao_geometrica(N, u, r):
-    termos = []  # Lista para armazenar os termos
+    termos = []  
     for n in range(N):
-        termo = u * r ** n  # Fórmula do n-ésimo termo
+        termo = u * r ** n  
         termos.append(termo)
     return termos
 
-# Exemplo de uso da função
-N = 5  # Número de termos
-u = 2  # Primeiro termo
-r = 3  # Razão
+
+N = 5  
+u = 2  
+r = 3  
 
 resultado = progressao_geometrica(N, u, r)
-print("Os primeiros", N, "termos da PG são:", resultado)
+print(resultado)
 
 
