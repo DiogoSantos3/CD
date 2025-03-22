@@ -1,10 +1,11 @@
-import math
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
 
-def combinacoes(n, k):
-    return math.factorial(n) // (math.factorial(k) * math.factorial(n - k))
 
-# Exemplo de uso
-n = 5
-k = 2
-resultado = combinacoes(n, k)
-print(f"O número de combinações de {n} elementos tomados {k} a k é: {resultado}")
+def comb(n, k):
+    return int(factorial(n) / (factorial(k) * factorial(n - k)))
+
+
+print(comb(7,3))

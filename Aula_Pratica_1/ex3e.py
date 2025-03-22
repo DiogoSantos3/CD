@@ -1,11 +1,14 @@
-def min_max(vetor):
-    minimo = min(vetor)
-    maximo = max(vetor)
-    return minimo, maximo
+def maxnmin(v):
+    max_value = v[0]
+    min_value = v[0]
+    for i in range(len(v)):
+        if v[i] > max_value:
+            max_value = v[i]
+
+        elif v[i] < min_value:
+            min_value = v[i]
+
+    return max_value, min_value
 
 
-vetor = [3, 5, 1, 9, 2]
-minimo, maximo = min_max(vetor)
-
-print(f"mínimo: {minimo}")
-print(f"máximo: {maximo}")
+print(maxnmin([10, 5, 8, 15, 2]))
