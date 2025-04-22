@@ -1,4 +1,5 @@
 #=============== i ===============
+import random
 import string
 
 def gerar_palavra_passe():

@@ -1,5 +1,5 @@
 import math
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 from collections import Counter
 
 def analisar_fonte(caminho):
