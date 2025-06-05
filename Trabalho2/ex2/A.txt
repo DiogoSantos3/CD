@@ -1,0 +1,13 @@
+Este é um texto de exemplo para testar o pipeline de codificação.
+Contém várias linhas, letras, números e sinais de pontuação.
+
+Linha 1: The quick brown fox jumps over the lazy dog.
+Linha 2: 0123456789
+Linha 3: !@#$%^&*()_+-=[]{}|;':",.<>/?`
+
+Aqui repetimos um pouco para aumentar o tamanho:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis.
+In condimentum facilisis porta. Sed nec diam eu diam mattis viverra nulla.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec justo eget felis facilisis fermentum.
+
+Texto final para teste: frase final para confirmar que A e E coincidem quando p for baixo, ou diferem quando p for alto.
