@@ -181,6 +181,13 @@ def run_pipeline(p: float, gen_histograms: bool):
 
     # 1) Fonte → B (gzip)
     source_encode(path_A, B)
+
+    tamanho_A = os.path.getsize(path_A)
+    tamanho_B = os.path.getsize(B)
+    razao = tamanho_B / tamanho_A if tamanho_A>0 else float('nan')
+    if gen_histograms:
+        print(f"Razão de compressão |B|/|A| = {tamanho_B}/{tamanho_A} = {razao:.4f}")
+
     # 2) B → C (XOR)
     encrypt_file(B, C, key)
     # 3) C → D (repetição 3,1)
