@@ -127,7 +127,7 @@ def sistema_transmissao(a_path, e_path, chave, p):
 # ---------- Main ----------
 def main():
     chave = "ISEL"
-    sistema_transmissao("A.txt", "E.txt", chave, p=0.1)
+    sistema_transmissao("../Ex1/A.txt", "E.txt", chave, p=0.1)
 
 if __name__ == "__main__":
     main()
