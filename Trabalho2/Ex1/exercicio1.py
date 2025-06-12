@@ -99,7 +99,7 @@ def descodificar_hamming_stream(bits):
         if len(bits[i:i+7]) == 7
     )
 
-# ---------- Exercício 1(c): Simulação com codificação ----------
+# ---------- Exercício 1(d): Simulação com codificação ----------
 
 def simular_transmissao(dados, p, modo):
     original_bin = ''.join(format(b, '08b') for b in dados)
